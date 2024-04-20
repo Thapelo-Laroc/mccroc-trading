@@ -31,10 +31,10 @@
             </div>
             <div id="mainListDiv" class="main_list">
             <ul class="navlinks">
-                    <li><a href="#">About</a></li>
+                    <!-- <li><a href="#">About</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Contact</a></li> -->
                     @if (Route::has('login'))
                             
                                 @auth
@@ -277,7 +277,7 @@
                     <h4 class="white fw-800 fs-l3 mb-5">McCroc Pricing</h4>
                     <div class="indigo-lightest fw-600 fs-m1 opacity-50">We strive to make our services free of charge. However, wherever we place a fee, it means we also incur charges.</div>
                     <h4 class="white fw-600 fs-m2 mt-10">Companies trusts us.</h4>
-                    <div class="flex indigo-lightest opacity-50">
+                    <!-- <div class="flex indigo-lightest opacity-50">
                         <div class="w-25pc">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177.78 100" fill="currentColor">
                                 <path
@@ -318,7 +318,7 @@
                                     d="M30.46,48.57a13.69,13.69,0,0,1,26.57,0h-1.2a9.69,9.69,0,0,0-5.67,1.73,2.86,2.86,0,0,1-.3.19h-.14a2.86,2.86,0,0,1-.3-.19,10.17,10.17,0,0,0-11.35,0,2.86,2.86,0,0,1-.3.19h-.14a2.86,2.86,0,0,1-.3-.19,9.69,9.69,0,0,0-5.67-1.73Zm23.21,6.27a3.37,3.37,0,0,1,2.16-.71h1.61V50.92H55.83A6.38,6.38,0,0,0,52,52.14a3.64,3.64,0,0,1-4.32,0,6.8,6.8,0,0,0-7.77,0,3.64,3.64,0,0,1-4.32,0,6.38,6.38,0,0,0-3.88-1.22H30.05v3.21h1.61a3.37,3.37,0,0,1,2.16.71,6.78,6.78,0,0,0,7.76,0,3.39,3.39,0,0,1,2.16-.71,3.35,3.35,0,0,1,2.16.71,6.8,6.8,0,0,0,7.77,0Zm0,5.74a3.37,3.37,0,0,1,2.16-.71h1.61V56.66H55.83A6.38,6.38,0,0,0,52,57.88a3.64,3.64,0,0,1-4.32,0,6.8,6.8,0,0,0-7.77,0,3.64,3.64,0,0,1-4.32,0,6.38,6.38,0,0,0-3.88-1.22H30.05v3.21h1.61a3.37,3.37,0,0,1,2.16.71,6.78,6.78,0,0,0,7.76,0,3.39,3.39,0,0,1,2.16-.71,3.35,3.35,0,0,1,2.16.71,6.8,6.8,0,0,0,7.77,0Z" />
                                 </svg>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="w-100pc md-w-25pc">
@@ -385,7 +385,7 @@
     </section>
 
     <!-- testimonials -->
-    <section class="p-10 md-p-l5">
+    <!-- <section class="p-10 md-p-l5">
         <div id="slider-2">
             <div class="px-3">
                 <div class="p-8 br-8 bg-indigo-lightest-10 relative">
@@ -449,10 +449,10 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
     <!-- featured blog -->
-    <section class="p-10 md-p-l10">
+    <!-- <section class="p-10 md-p-l10">
         <div class="md-w-75pc">
             <h2 class="white fs-l3 fw-900 lh-1">Lorem ipsum dolor sit amet, consectetur</h2>
             <p class="indigo-lightest fw-600 fs-m1 opacity-50 my-5">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -466,8 +466,8 @@
 
     </section>
 
-    <!-- blog -->
-    <section class="p-0 md-p-5">
+     blog -->
+    <!-- <section class="p-0 md-p-5">
         <div class="flex flex-wrap">
             <div class="w-100pc md-w-33pc p-10">
                 <a href="#" class="block no-underline p-5 br-8 hover-bg-indigo-lightest-10 hover-scale-up-1 ease-300">
@@ -498,10 +498,10 @@
             </div>
 
         </div>
-    </section>
+    </section> --> 
 
     <!-- subscribe -->
-    <section class="p-10 md-p-l5">
+    <!-- <section class="p-10 md-p-l5">
         <div class="br-8 bg-indigo-lightest-10 p-5 md-p-l5 flex flex-wrap md-justify-between md-items-center">
             <div class="w-100pc md-w-33pc">
                 <h2 class="white fs-m4 fw-800">Try Hook today</h2>
@@ -517,10 +517,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- footer -->
-    <footer class="p-5 md-p-l5 bg-indigo-lightest-10">
+    <!-- <footer class="p-5 md-p-l5 bg-indigo-lightest-10">
         <div class="flex flex-wrap">
             <div class="md-w-25pc mb-10">
                 <img src="assets/images/logo.png" class="w-l5" alt="">
@@ -593,7 +593,7 @@
             </div>
         </div>
     </footer>
-   
+    -->
     </div>
     <!-- Toggle read more -->
     <script>

@@ -232,7 +232,7 @@
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">
-                        <img class="rounded-circle" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
+                        <!-- <img class="rounded-circle" src="img/user.jpg" alt="" style="width: 40px; height: 40px;"> -->
                         <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
                     </div>
                     <div class="ms-3">
@@ -334,7 +334,7 @@
                     </div> -->
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <img class="rounded-circle me-lg-2" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
+                            <!-- <img class="rounded-circle me-lg-2" src="img/user.jpg" alt="" style="width: 40px; height: 40px;"> -->
                             <span class="d-none d-lg-inline-flex">{{ Auth::user()->name }}</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
@@ -373,7 +373,7 @@
                                     <!-- TradingView Widget BEGIN -->
                                 <div class="tradingview-widget-container">
                                 <div class="tradingview-widget-container__widget"></div>
-                                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                                <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div> -->
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
                                 {
                                 "symbol": "OANDA:XAUUSD",
@@ -392,7 +392,7 @@
                                 <!-- TradingView Widget BEGIN -->
                                 <div class="tradingview-widget-container">
                                 <div class="tradingview-widget-container__widget"></div>
-                                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                                <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div> -->
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
                                 {
                                 "symbol": "OANDA:NAS100USD",
@@ -420,70 +420,51 @@
                     </div>
                     <div class="col-sm-12 col-md-6 col-xl-4">
                         <div class="h-100 bg-secondary rounded p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0">To Do List</h6>
-                                <a href="">Show All</a>
-                            </div>
-                            <div class="d-flex mb-2">
-                                <input class="form-control bg-transparent" type="text" placeholder="Enter task">
-                                <button type="button" class="btn btn-primary ms-2">Add</button>
-                            </div>
+                            
                            
-                            <div class="d-flex align-items-center border-bottom py-2">
-                                <input class="form-check-input m-0" type="checkbox">
-                                <div class="w-100 ms-3">
-                                    <div class="d-flex w-100 align-items-center justify-content-between">
-                                        <span>Short task goes here...</span>
-                                        <button class="btn btn-sm"><i class="fa fa-times"></i></button>
-                                    </div>
-                                </div>
+                            <!-- TradingView Widget BEGIN -->
+                            <div class="tradingview-widget-container">
+                            <div class="tradingview-widget-container__widget"></div>
+                            <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div> -->
+                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+                            {
+                            "interval": "1D",
+                            "width": "325",
+                            "isTransparent": true,
+                            "height": "330",
+                            "symbol": "OANDA:XAUUSD",
+                            "showIntervalTabs": true,
+                            "displayMode": "single",
+                            "locale": "en",
+                            "colorTheme": "dark"
+                            }
+                            </script>
                             </div>
-                            <div class="d-flex align-items-center border-bottom py-2">
-                                <input class="form-check-input m-0" type="checkbox" checked>
-                                <div class="w-100 ms-3">
-                                    <div class="d-flex w-100 align-items-center justify-content-between">
-                                        <span><del>Short task goes here...</del></span>
-                                        <button class="btn btn-sm text-primary"><i class="fa fa-times"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center border-bottom py-2">
-                                <input class="form-check-input m-0" type="checkbox">
-                                <div class="w-100 ms-3">
-                                    <div class="d-flex w-100 align-items-center justify-content-between">
-                                        <span>Short task goes here...</span>
-                                        <button class="btn btn-sm"><i class="fa fa-times"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center pt-2">
-                                <input class="form-check-input m-0" type="checkbox">
-                                <div class="w-100 ms-3">
-                                    <div class="d-flex w-100 align-items-center justify-content-between">
-                                        <span>Short task goes here...</span>
-                                        <button class="btn btn-sm"><i class="fa fa-times"></i></button>
-                                    </div>
-                                </div>
-                            </div>
+                            <!-- TradingView Widget END -->
                         </div>
                     </div>
                     <div class="col-sm-12 col-xl-6">
                         <div class="bg-secondary rounded h-100 p-4">
-                            <h6 class="mb-4">Testimonial</h6>
-                            <div class="owl-carousel testimonial-carousel">
-                                <div class="testimonial-item text-center">
-                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/testimonial-1.jpg" style="width: 100px; height: 100px;">
-                                    <h5 class="mb-1">Client Name</h5>
-                                    <p>Profession</p>
-                                    <p class="mb-0">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                                </div>
-                                <div class="testimonial-item text-center">
-                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/testimonial-2.jpg" style="width: 100px; height: 100px;">
-                                    <h5 class="mb-1">Client Name</h5>
-                                    <p>Profession</p>
-                                    <p class="mb-0">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                                </div>
+                            <!-- <h6 class="mb-4">Testimonial</h6> -->
+                            <!-- TradingView Widget BEGIN -->
+                            <div class="tradingview-widget-container">
+                            <div class="tradingview-widget-container__widget"></div>
+                            <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div> -->
+                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                            {
+                            "symbol": "OANDA:XAUUSD",
+                            "width": "100%",
+                            "height": "100%",
+                            "locale": "en",
+                            "dateRange": "1M",
+                            "colorTheme": "dark",
+                            "isTransparent": true,
+                            "autosize": true,
+                            "largeChartUrl": ""
+                            }
+                            </script>
                             </div>
+                            <!-- TradingView Widget END -->
                         </div>
                     </div>
                     <div class="col-sm-12 col-xl-6">
@@ -492,7 +473,7 @@
                             <!-- TradingView Widget BEGIN -->
                             <div class="tradingview-widget-container">
                             <div class="tradingview-widget-container__widget"></div>
-                            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                            <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div> -->
                             <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
                             {
                             "width": "auto",
@@ -553,7 +534,7 @@
                        <!-- TradingView Widget BEGIN -->
                         <div class="tradingview-widget-container">
                         <div class="tradingview-widget-container__widget"></div>
-                        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                        <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div> -->
                             <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
                             {
                             "width": "auto",
@@ -593,7 +574,7 @@
         {{-- List of posts (show only the latest 3) --}}
         @foreach ($posts->take(3) as $post)
         <div class="d-flex align-items-center border-bottom py-3 {{ $post->isCreatedByAdmin() ? 'admin-post' : '' }}">
-            <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
+            <img class="rounded-circle flex-shrink-0" src="img/logo.gif" alt="" style="width: 40px; height: 40px;">
             <div class="w-100 ms-3">
                 <div class="d-flex w-100 justify-content-between">
                     <h6 class="mb-0">{{ $post->user->name }}</h6>
@@ -619,7 +600,7 @@
                             <div id="calender"></div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-xl-4">
+                    <!-- <div class="col-sm-12 col-md-6 col-xl-4">
                         <div class="h-100 bg-secondary rounded p-4">
                             <div class="d-flex align-items-center justify-content-between mb-4">
                                 <h6 class="mb-0">To Do List</h6>
@@ -674,7 +655,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
